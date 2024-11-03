@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Sarvarbek | Welcome!</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Design -->
+    <header id="header" class="header">
+        <a class="logo">Sarvarbek</a>
+        <div class="theme-container">
+            <i id="modeElement" class='bx bxs-sun'></i>
+            </div>
+        <i class='bx bx-menu' id="menu-icon" onclick="showNavbar()"></i>
+        <!-- Navbar -->
+        <nav class="navbar" id="navbar">
+            <a onclick="showNavbar()" href="#home" class="active">Home</a>
+            <a onclick="showNavbar()" href="#about">About</a>
+            <a onclick="showNavbar()" href="#services">Services</a>
+            <a onclick="showNavbar()" href="#projects">Projects</a>
+            <a onclick="showNavbar()" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ilyosov Sarvarbek</h1>
+            <h3>And I'm a <span id="autoType"></span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Modi minima adipisci molestias sunt ratione nobis,
+              veritatis quis.</p>
+              <div class="social-media">
+                  <a target="_blank" href="https://www.youtube.com/channel/UCoSH9bE54N9Cm9B_YP0hWHw">
+                    <i class='bx bxl-youtube' ></i>
+                  </a>
+                  <a target="_blank" href="https://www.instagram.com/sarvarbek_ilyosov2010?igsh=YzljYTk1ODg3Zg==">
+                    <i class='bx bxl-instagram'></i>
+                  </a>
+                  <a target="_blank" href="https://t.me/SarvarbekIlyosov">
+                    <i class='bx bxl-telegram' ></i>
+                  </a>
+                  <a target="_blank" href="https://x.com/Sarvarbek_2010?t=EVfECgj41m200RyeIj2dbA&s=35">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+              </div>
+              <a href="" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img class="imgs" src="Images/logo.png" alt="Home IMG">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/logo.png" class="imgs" alt="About Me">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Repudiandae aspernatur voluptatibus ea adipisci nesciunt 
+                 reiciendis odit excepturi numquam magnam in, ex ducimus
+                  dolorum rerum, voluptate necessitatibus natus voluptatum
+                   perferendis recusandae. Suscipit voluptas minima id numquam et.
+                    Reprehenderit similique neque deleniti maiores
+                 quo eos alias asperiores aliquid maxime!</p>
+                 <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section Design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Esse iste at sint atque accusantium quos et quas optio fugiat ipsa.</p>
+                     <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Esse iste at sint atque accusantium quos et quas optio fugiat ipsa.</p>
+                     <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Esse iste at sint atque accusantium quos et quas optio fugiat ipsa.</p>
+                     <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section Design -->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="Images/portfolio1.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/portfolio2.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/portfolio3.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/portfolio4.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/portfolio5.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/portfolio6.jpg" alt="1-projects">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Illum, fuga!</p>
+                         <a href="">
+                            <i class='bx bx-link-external'></i>
+                         </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Contact Section Design -->
+
+<section class="contact" id="contact">
+    <h4 class="heading">Contact <span>Me!</span></h4>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-box">
+            <input name="Name" type="text" placeholder="Full Name" required>
+            <input name="Email" type="email" placeholder="Email Address" required>
+        </div>
+        <input type="hidden" name="access_key" value="351a6fa8-bf60-41ac-9b0b-e9a1a56163ab">
+        <div class="input-box">
+            <input name="Number" type="number" placeholder="Mobile Number">
+            <input name="EmailSubject" type="text" placeholder="Email Subject" required>
+        </div>
+
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+<!-- Footer Design -->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>&copy;Copyright <span id="currentYear"></span> <b>Ilyosov Sarvarbek</b></p>
+    </div>
+</footer>
+
+
+    <a id="scrollHome"  class="scroll-to-top" href="#home">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
